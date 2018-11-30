@@ -18,8 +18,8 @@ if ( ! defined( 'ABSPATH' ) ) {
         <p class="lead">“Spiritual health is the key to church growth, but healthy churches don’t happen by accident. They are nurtured over time by intentional and passionate pastors and leaders who practice Christian leadership, spiritual formation, and biblical decision making.”</p>
         
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
-        <i class="fa fa-play" aria-hidden="true"></i> WATCH OUR VIDEO
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        <i class="fa fa-play" aria-hidden="true"></i> VER VIDEO
         </button>
 
               <!-- Modal -->
@@ -40,7 +40,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
       </div>
       <div class="col-md floating-img-container">
-        <img src="http://recursos-aguilascfc.local/wp-content/uploads/2018/10/dads7.png" alt="" class="floating-img">
+        <img src="http://guillermo-jimenez.local/wp-content/uploads/2018/11/dads7.png" alt="" class="floating-img">
       </div>
     </div>
   </div>
