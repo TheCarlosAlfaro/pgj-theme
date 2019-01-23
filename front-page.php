@@ -18,4 +18,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!-- Hero Section/Jumbotron -->
 <?php get_template_part( 'global-templates/jumbotron' ); ?>
 
+<!-- Sign up Section -->
+<?php get_template_part( 'global-templates/signup' ); ?>
+
 <?php get_footer(); ?>
