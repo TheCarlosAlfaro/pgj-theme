@@ -162,4 +162,20 @@ jQuery(document).ready(function($) {
   }
 
   const liveSearch = new Search();
+
+  // It stops modal video when user closes modal
+  $('.modal').each(function() {
+    var src = $(this)
+      .find('iframe')
+      .attr('src');
+
+    $(this).on('click', function() {
+      $(this)
+        .find('iframe')
+        .attr('src', '');
+      $(this)
+        .find('iframe')
+        .attr('src', src);
+    });
+  });
 });
