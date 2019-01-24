@@ -178,4 +178,12 @@ jQuery(document).ready(function($) {
         .attr('src', src);
     });
   });
+
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 60,
+    backDelay: 2000
+  });
 });

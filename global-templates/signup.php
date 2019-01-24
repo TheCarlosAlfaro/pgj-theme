@@ -18,9 +18,9 @@ if (!defined('ABSPATH')) {
         background-repeat: no-repeat;
         background-size: cover;"
     > -->
-    <div style="background-color: #EFEFEF;">
-        <h3 class="text-center section-header"><?php echo get_theme_mod('home_devotionals_heading', 'YAY I build a theme'); ?></h3>
-        <p class="text-center section-sub-header"><?php echo get_theme_mod('home_devotionals_sub_heading', 'YAY I build a theme'); ?></p>
+    <div style="background-color: #EFEFEF;" class="py-5">
+        <h3 class="text-center section-header"><?php echo get_theme_mod('home_devotionals_heading', 'SUSCRÍBASE A NUESTRO DEVOCIONAL DIARIO'); ?></h3>
+        <p class="text-center section-sub-header"><?php echo get_theme_mod('home_devotionals_sub_heading', 'Subscribe and receive our daily devotionals'); ?></p>
         <div class="container text-center">
             <div class="top-pad">
             <!-- Sign up form -->

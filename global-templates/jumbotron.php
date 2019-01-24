@@ -15,8 +15,14 @@ if (!defined('ABSPATH')) {
   <div class="container">
     <div class="row">
       <div class="col-md text-md-left text-center">
-        <h1 class="display-4">BUILD A HEALTHY CHURCH</h1>
-        <p class="lead">“Spiritual health is the key to church growth, but healthy churches don’t happen by accident. They are nurtured over time by intentional and passionate pastors and leaders who practice Christian leadership, spiritual formation, and biblical decision making.”</p>
+      <div id="typed-strings">
+          <p>Experience</p>
+          <p>Apply</p>
+          <p>Share</p>
+      </div>
+      <span id="typed"></span>
+        <h1 class="display-4">God's Word.</h1>
+        <p class="lead">Practical messages that <br>inspire you to take action.</p>
         
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
