@@ -12,13 +12,13 @@ if (!defined('ABSPATH')) {
 ?>
 
 <div id="home-devocional">
-    <!-- <div class="hidden-sx section parallax" style="background: url(<?php echo get_theme_mod('home_devotionals_image', get_bloginfo('template_url').'/img/showcase.jpg') ?>);
+    <div class="hidden-sx section parallax py-5" style="background: url('http://guillermo-jimenez.local/wp-content/uploads/2019/01/signup-pgj.jpg');
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;"
-    > -->
-    <div style="background-color: #EFEFEF;" class="py-5">
+    >
+    <!-- <div style="background-color: #EFEFEF;" class="py-5"> -->
         <h3 class="text-center section-header"><?php echo get_theme_mod('home_devotionals_heading', 'SUSCRÍBASE A NUESTRO DEVOCIONAL DIARIO'); ?></h3>
         <p class="text-center section-sub-header"><?php echo get_theme_mod('home_devotionals_sub_heading', 'Subscribe and receive our daily devotionals'); ?></p>
         <div class="container text-center">
