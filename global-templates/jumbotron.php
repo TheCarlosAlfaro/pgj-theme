@@ -29,6 +29,24 @@ if (!defined('ABSPATH')) {
         <i class="fa fa-play" aria-hidden="true"></i> VER VIDEO
         </button>
 
+        <div class="social">
+            <a href="<?php echo get_theme_mod('social1_url'); ?>" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="<?php echo get_theme_mod('social2_url'); ?>" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="<?php echo get_theme_mod('social3_url'); ?>" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="<?php echo get_theme_mod('social4_url'); ?>" target="_blank">
+                <i class="fa fa-youtube"></i>
+            </a>
+            <a href="<?php echo get_theme_mod('social5_url'); ?>" target="_blank">
+                <i class="fa fa-globe"></i>
+            </a>
+        </div>
+
               <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">

@@ -84,6 +84,40 @@ body.admin-bar nav {
   border: 2px solid $primary;
 }
 
+// Social Icons
+.social {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.social a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social a i {
+	color: $primary;
+  font-size: 20px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  border: 2px solid $primary;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.social a i:hover {
+  background-color: $secondary;
+  color: white;
+  border-color: $secondary;
+}
+
 .floating-img {
   // padding-top: 3rem;
   bottom: 0px;
