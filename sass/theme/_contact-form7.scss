@@ -45,7 +45,7 @@
   // submit button, inherit .btn and .btn-outline-primary classes.
   input[type=submit] {
     @extend .btn;
-    @extend .btn-outline-primary;
+    @extend .btn-primary;
   }
 
   .wpcf7-form {
@@ -71,5 +71,9 @@
     @extend .form-control;
     color: theme-color("danger");
     border: 1px solid $gray-200;
+  }
+
+  .cfc #cfc {
+    background-color: transparent;
   }
 }
