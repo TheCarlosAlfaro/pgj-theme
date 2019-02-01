@@ -21,7 +21,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!-- Sign up Section -->
 <?php get_template_part( 'global-templates/signup' ); ?>
 
-<!-- Sign up Section -->
+<!-- Quote Section -->
 <?php get_template_part( 'global-templates/quote' ); ?>
+
+<!-- Book Section -->
+<?php get_template_part( 'global-templates/book' ); ?>
 
 <?php get_footer(); ?>
