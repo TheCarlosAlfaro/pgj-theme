@@ -27,4 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!-- Book Section -->
 <?php get_template_part( 'global-templates/book' ); ?>
 
+<!-- Live Section -->
+<?php get_template_part( 'global-templates/live' ); ?>
+
 <?php get_footer(); ?>

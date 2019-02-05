@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
 }
 ?>
 
-<div id="home-tabernaculo">
+<div id="home-quote">
     <div class="hidden-sx section parallax" style="background: url('http://guillermo-jimenez.local/wp-content/uploads/2019/02/quote-dads-section.jpg');
         background-attachment: fixed;
         background-position: center;

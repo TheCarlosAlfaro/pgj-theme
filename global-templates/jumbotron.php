@@ -30,19 +30,19 @@ if (!defined('ABSPATH')) {
         </button>
 
         <div class="social">
-            <a href="<?php echo get_theme_mod('social1_url'); ?>" target="_blank">
+            <a href="https://www.facebook.com/PastorGuillermoJimenez/" target="_blank">
                 <i class="fa fa-facebook"></i>
             </a>
-            <a href="<?php echo get_theme_mod('social2_url'); ?>" target="_blank">
+            <a href="https://www.instagram.com/jguillermojimenez/" target="_blank">
                 <i class="fa fa-instagram"></i>
             </a>
-            <a href="<?php echo get_theme_mod('social3_url'); ?>" target="_blank">
+            <a href="https://twitter.com/aguilascfc" target="_blank">
                 <i class="fa fa-twitter"></i>
             </a>
-            <a href="<?php echo get_theme_mod('social4_url'); ?>" target="_blank">
+            <a href="https://www.youtube.com/channel/UCOSYflkkC6kM0eBaKkQUVTQ" target="_blank">
                 <i class="fa fa-youtube"></i>
             </a>
-            <a href="<?php echo get_theme_mod('social5_url'); ?>" target="_blank">
+            <a href="https://www.aguilascfc.org/" target="_blank">
                 <i class="fa fa-globe"></i>
             </a>
         </div>
