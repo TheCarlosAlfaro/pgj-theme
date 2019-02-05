@@ -32,7 +32,7 @@ if ( ! function_exists( 'understrap_add_site_info' ) ) {
       esc_url( __( 'http://www.aguilascfc.org/', 'understrap' ) ),
       sprintf(
         /* translators:*/
-        esc_html__( '© Copyright 2018 Aguilas Centro Familiar Cristiano %s', 'understrap' ), ''
+        esc_html__( '© Copyright 2019 Aguilas Centro Familiar Cristiano %s', 'understrap' ), ''
       ),
       sprintf( // WPCS: XSS ok.
         /* translators:*/

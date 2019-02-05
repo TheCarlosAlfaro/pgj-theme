@@ -20,9 +20,9 @@ if (!defined('ABSPATH')) {
     >
         <div class="container text-light">
             <div class="col-md-6 px-0 text-light py-5">
-                <h1 class="section-header font-italic">Watch Steven Furtick Live</h1>
-                <p class="lead my-3">Pastor Steven Furtick is the founder and lead pastor of Elevation Church based in Charlotte, NC. Elevation Church broadcasts live every weekend and on demand throughout the week on ElevationChurch.online</p>
-                <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Join us Sundays at 9:30AM, 11:30AM, 5:00PM, 8:00PM, & 10:00PM EST</a></p>
+                <h1 class="section-header font-italic">Watch Guillermo Jimenez Live</h1>
+                <p class="lead my-3">Pastor Guillermo Jimenez is the founder and lead pastor of ACFC based in Las Vegas, NV. ACFC Church broadcasts live every weekend and on demand throughout the week on live.aguilascfc.org</p>
+                <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Join us Sundays at 9:30AM, 11:45AM, 2:00PM, 6:30PM EST</a></p>
                 <a href="<?php echo get_theme_mod('home_podcast_button_url', '#'); ?>">
                     <button type="button" class="btn btn-primary"><?php echo get_theme_mod('home_podcast_button_text', 'Watch now'); ?></button>
                 </a>
