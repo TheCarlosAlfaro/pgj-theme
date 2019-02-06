@@ -12,7 +12,7 @@ if (!defined('ABSPATH')) {
 ?>
 
 <div id="home-quote">
-    <div class="hidden-sx section parallax" style="background: url('http://guillermo-jimenez.local/wp-content/uploads/2019/02/quote-dads-section.jpg');
+    <div class="hidden-sx section parallax" style="background: url('http://guillermo-jimenez.local/wp-content/uploads/2019/02/pasotor-dios-persona-sm-overlay.jpg');
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;

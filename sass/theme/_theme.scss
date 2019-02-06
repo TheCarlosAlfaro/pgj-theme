@@ -508,7 +508,7 @@ body.admin-bar .search-overlay {
 
 // Quote section styles
 .quote-h {
-  min-height: 530px;
+  min-height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -527,4 +527,12 @@ body.admin-bar .search-overlay {
 .section-header {
 	font-size: 2rem;
 	font-weight: bold;
+}
+
+.live-h {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
 }
