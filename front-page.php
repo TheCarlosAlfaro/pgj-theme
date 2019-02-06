@@ -30,4 +30,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!-- Live Section -->
 <?php get_template_part( 'global-templates/live' ); ?>
 
+<!-- Biography Section -->
+<?php get_template_part( 'global-templates/biography' ); ?>
+
 <?php get_footer(); ?>
