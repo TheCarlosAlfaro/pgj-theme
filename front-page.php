@@ -33,4 +33,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!-- Biography Section -->
 <?php get_template_part( 'global-templates/biography' ); ?>
 
+<!-- Biography Section -->
+<?php get_template_part( 'global-templates/gallery' ); ?>
+
 <?php get_footer(); ?>

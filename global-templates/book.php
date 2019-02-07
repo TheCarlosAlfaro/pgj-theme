@@ -18,7 +18,7 @@ if (!defined('ABSPATH')) {
         <div class="container">
             <div class="row pt-4">
                 <div class="text-center col-md">
-                    <img class="book-img" src="http://guillermo-jimenez.local/wp-content/uploads/2019/02/COVER-secretos-front.jpg" alt="">
+                    <img class="book-img" src="http://guillermo-jimenez.local/wp-content/uploads/2019/02/Book-Cover-Mockup.png" alt="">
                 </div>
                 <div class="col-md">
                     <p>Did you know that your life has a unique roadmap, a purpose all its own, distinct and matchless to any other individual on planet earth? And that this path is ready for you to conquer – regardless of how far you are on life’s journey, how many mistakes you feel you’ve made, or roadblocks you have come up against. We are all born with God-given potential to leave our own imprint on the world around us.</p>
@@ -28,7 +28,7 @@ if (!defined('ABSPATH')) {
                         <div>
                             <p class="font-weight-bold">When it comes to life with Jesus, there is no doubt – your best is yet to come!</p>
                         </div>
-                        <a href="<?php echo get_theme_mod('home_podcast_button_url', '#'); ?>">
+                        <a href="<?php echo get_theme_mod('home_podcast_button_url', 'https://www.amazon.com/Secretos-extraordinario-Secrets-Extraordinary-Spanish/dp/0789920514/ref=sr_1_1?ie=UTF8&qid=1549480367&sr=8-1&keywords=secretos+de+un+lider+extraordinario'); ?>" target="_blank">
                             <button type="button" class="btn btn-outline-primary"><?php echo get_theme_mod('home_podcast_button_text', 'GET IT NOW'); ?></button>
                         </a>
                     </div>
