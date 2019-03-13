@@ -13,19 +13,18 @@ if (!defined('ABSPATH')) {
 
 <div id="home-latest">
   <div class="hidden-sx py-5">
-    <h3 class="text-center section-header"><?php echo get_theme_mod('home_remas_heading', 'Mas Recientes'); ?></h3>
-    <p class="text-center"><?php echo get_theme_mod('home_remas_sub_heading', 'Enriqueze tu vida leendo los remas.'); ?>
-    </p>
+    <h3 class="text-center section-header"><?php the_field("mas_recientes_title") ?></h3>
+    <p class="text-center"><?php the_field("mas_recientes_sub_title") ?></p>
     <div class="container">
       <div class="row">
         <?php
-        $remaPosts = new WP_Query(array(
-          'post_type' => 'post',
-          'cat' => '1',
-          'posts_per_page' => 3
-        ));
-        while ($remaPosts->have_posts()) {
-          $remaPosts->the_post(); ?>
+                $remaPosts = new WP_Query(array(
+                  'post_type' => 'post',
+                  'cat' => '1',
+                  'posts_per_page' => 3
+                ));
+                while ($remaPosts->have_posts()) {
+                  $remaPosts->the_post(); ?>
         <div class="col-md-6 col-xl-4">
           <div class="card mb-4 box-shadow">
             <a href="<?php the_permalink(); ?>"><img class="card-img-top" src="<?php the_post_thumbnail_url(); ?>"
@@ -49,16 +48,15 @@ if (!defined('ABSPATH')) {
           </div>
         </div>
         <?php 
-      }
-      wp_reset_postdata();
-      ?>
+              }
+              wp_reset_postdata();
+              ?>
       </div>
       <div class="row">
         <div class="col text-center">
-          <a href="<?php echo get_theme_mod('home_podcast_button_url', 'https://www.amazon.com/Secretos-extraordinario-Secrets-Extraordinary-Spanish/dp/0789920514/ref=sr_1_1?ie=UTF8&qid=1549480367&sr=8-1&keywords=secretos+de+un+lider+extraordinario'); ?>"
-            target="_blank">
+          <a href="<?php the_field("mas_recientes_button_url") ?>" target="_blank">
             <button type="button"
-              class="btn btn-outline-primary"><?php echo get_theme_mod('home_podcast_button_text', 'VER MAS'); ?></button>
+              class="btn btn-outline-primary"><?php the_field("mas_recientes_button_text") ?></button>
           </a>
         </div>
       </div>
