@@ -7,21 +7,21 @@
  */
 
 if (!defined('ABSPATH')) {
-  exit; // Exit if accessed directly.
+    exit; // Exit if accessed directly.
 }
 ?>
 
 <div id="home-quote">
-    <div class="hidden-sx section parallax" style="background: url('http://staging.guillermojimenez.online/wp-content/uploads/2019/02/pasotor-dios-persona-sm-overlay.jpg');
+  <div class="hidden-sx section parallax" style="background: url('<?php the_field("quote_section_background_image") ?>');
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;">
-        <div class="container text-center quote-h">
-            <blockquote class="blockquote text-center text-light">
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <footer class="blockquote-footer text-light">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-            </blockquote>
-        </div>
+    <div class="container text-center quote-h">
+      <blockquote class="blockquote text-center text-light">
+        <p class="mb-0"><?php the_field("quote_body") ?></p>
+        <footer class="blockquote-footer text-light"><?php the_field("quote_footer") ?></footer>
+      </blockquote>
     </div>
-</div> 
+  </div>
+</div>
