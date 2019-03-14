@@ -7,12 +7,12 @@
  */
 
 if (!defined('ABSPATH')) {
-    exit; // Exit if accessed directly.
+  exit; // Exit if accessed directly.
 }
 ?>
 
 <div id="home-signup">
-  <div class="hidden-sx section parallax py-5" style="background: url('<?php the_field("sign_up_background_image") ?>');
+  <div class="hidden-sx section parallax py-5 mobile--bg-image" style="background: url('<?php the_field("sign_up_background_image") ?>');
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;

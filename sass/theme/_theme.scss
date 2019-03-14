@@ -155,7 +155,7 @@ body.admin-bar nav {
 
 @include media-breakpoint-down(md) {
   html {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
@@ -280,6 +280,12 @@ body.admin-bar .search-overlay {
   .search-overlay__close {
     top: 26px;
     font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .mobile--bg-image {
+    background-attachment: scroll !important;
   }
 }
 

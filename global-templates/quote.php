@@ -7,13 +7,13 @@
  */
 
 if (!defined('ABSPATH')) {
-    exit; // Exit if accessed directly.
+  exit; // Exit if accessed directly.
 }
 ?>
 
 <div id="home-quote">
-  <div class="hidden-sx section parallax" style="background: url('<?php the_field("quote_section_background_image") ?>');
-        background-attachment: fixed;
+  <div class="hidden-sx section parallax mobile--bg-image" style="background: url('<?php the_field("quote_section_background_image") ?>');
+         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;">

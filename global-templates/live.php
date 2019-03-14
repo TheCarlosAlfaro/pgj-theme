@@ -7,12 +7,12 @@
  */
 
 if (!defined('ABSPATH')) {
-    exit; // Exit if accessed directly.
+  exit; // Exit if accessed directly.
 }
 ?>
 
 <div id="home-live">
-  <div class="hidden-sx section parallax" style="background: url('<?php the_field("live_background_image") ?>');
+  <div class="hidden-sx section parallax mobile--bg-image" style="background: url('<?php the_field("live_background_image") ?>');
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
